@@ -17,8 +17,8 @@
             "color": "rgba(54, 162, 235, 0.2)"
         },
         {
-            "id": "FLSTHPI",
-            "name": "House Price Index in Florida",
+            "id": "ACTLISCOUMMFL",
+            "name": "Active Listing Count Month-Over-Month in Florida",
             "description": "This chart tracks the House Price Index, which measures changes in the prices of residential properties over time.",
             "canvasId": "housePriceIndexChart",
             "color": "rgba(75, 192, 192, 0.2)"

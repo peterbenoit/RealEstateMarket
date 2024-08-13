@@ -1,0 +1,27 @@
+{
+    "apiKey": "4aef95261705b5d131c5dba252bbdb45",
+    "baseUrl": "https://api.stlouisfed.org/fred/series/observations",
+    "series": [
+        {
+            "id": "ACTLISCOUGA",
+            "name": "Active Listings in Georgia",
+            "description": "This chart shows the number of active real estate listings in Georgia.",
+            "canvasId": "activeListingsChart",
+            "color": "rgba(255, 99, 132, 0.2)"
+        },
+        {
+            "id": "MEDDAYONMARGA",
+            "name": "Median Days on Market in Georgia",
+            "description": "This chart displays the median number of days that properties stay on the market in Georgia.",
+            "canvasId": "medianDaysChart",
+            "color": "rgba(54, 162, 235, 0.2)"
+        },
+        {
+            "id": "ACTLISCOUMMGA",
+            "name": "Active Listing Count Month-Over-Month in Georgia",
+            "description": "The count of active single-family and condo/townhome listings for a given market during the specified month (excludes pending listings).",
+            "canvasId": "activeListMOMChart",
+            "color": "rgba(223, 130, 68, 0.7)"
+        }
+    ]
+}

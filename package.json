@@ -1,0 +1,26 @@
+{
+	"type": "module",
+	"dependencies": {
+		"express": "^4.19.2",
+		"node-fetch": "^3.3.2"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.20",
+		"live-server": "^1.2.2",
+		"nodemon": "^3.1.4",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.4.41",
+		"tailwindcss": "^3.4.9"
+	},
+	"scripts": {
+		"build:css": "npx tailwindcss -i ./public/css/styles.css -o ./public/build/css/styles.css --minify",
+		"watch:css": "npx tailwindcss -i ./public/css/styles.css -o ./public/build/css/styles.css --watch",
+		"start:server": "node server.mjs",
+		"start:build": "npm run build:css && npm run start:server",
+		"dev:server": "nodemon --watch server.mjs --exec 'node server.mjs'",
+		"serve": "live-server public",
+		"dev": "npm-run-all --parallel watch:css dev:server serve",
+		"fetch-api-data": "node fetch-api-data.js",
+		"build": "npm-run-all fetch-api-data build:css"
+	}
+}

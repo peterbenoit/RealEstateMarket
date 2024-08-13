@@ -22,34 +22,6 @@
             "description": "This chart tracks the House Price Index, which measures changes in the prices of residential properties over time.",
             "canvasId": "housePriceIndexChart",
             "color": "rgba(75, 192, 192, 0.2)"
-        },
-        {
-            "id": "MORTGAGE30US",
-            "name": "30-Year Fixed Mortgage Rate",
-            "description": "This chart represents the average interest rate for a 30-year fixed mortgage in the United States, influencing borrowing costs.",
-            "canvasId": "mortgageRateChart",
-            "color": "rgba(153, 102, 255, 0.2)"
-        },
-        {
-            "id": "HOUST",
-            "name": "Housing Starts",
-            "description": "This chart shows the number of new residential construction projects that have started, indicating future housing supply.",
-            "canvasId": "housingStartsChart",
-            "color": "rgba(255, 159, 64, 0.2)"
-        },
-        {
-            "id": "PERMIT",
-            "name": "Building Permits",
-            "description": "This chart tracks the number of new private housing units authorized by building permits, a key indicator of future housing construction.",
-            "canvasId": "buildingPermitsChart",
-            "color": "rgba(255, 205, 86, 0.2)"
-        },
-        {
-            "id": "RHORUSQ156N",
-            "name": "Homeownership Rate",
-            "description": "This chart indicates the percentage of homes occupied by their owners. A higher rate suggests greater market stability.",
-            "canvasId": "homeownershipRateChart",
-            "color": "rgba(201, 203, 207, 0.2)"
         }
     ]
 }

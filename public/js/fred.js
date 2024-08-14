@@ -10,18 +10,6 @@ class HousingMarket {
 		return `${this.baseUrl}?series_id=${seriesId}&api_key=${this.apiKey}&file_type=json`;
 	}
 
-	// // Method to fetch data from FRED API
-	// async fetchData(seriesId) {
-	//     const url = this.buildUrl(seriesId);
-	//     try {
-	//         const response = await fetch(url);
-	//         const data = await response.json();
-	//         return data.observations;  // FRED returns an array of observations
-	//     } catch (error) {
-	//         console.error('Error fetching data:', error);
-	//     }
-	// }
-
 	async fetchData(seriesId) {
 		const url = this.buildUrl(seriesId);
 		try {

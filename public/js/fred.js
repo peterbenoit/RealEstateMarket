@@ -32,7 +32,7 @@ class HousingMarket {
 		} catch (error) {
 			console.error('Error fetching data from API, falling back to local data:', error);
 			try {
-				const localData = await fetch(`/API/${seriesId}.json`).then(res => res.json());
+				const localData = await fetch(`API/${seriesId}.json`).then(res => res.json());
 				return localData.observations;
 			} catch (localError) {
 				console.error('Error fetching data from local fallback:', localError);
@@ -61,7 +61,6 @@ class HousingMarket {
 	createCanvasElement(series) {
 		const container = document.getElementById('chart-container');
 		const section = document.createElement('section');
-		
 		const heading = document.createElement('h2');
 		heading.textContent = series.name;
 
@@ -122,7 +121,7 @@ class HousingMarket {
 // Load the configuration and initialize the HousingMarket class
 document.addEventListener('DOMContentLoaded', () => {
 	const configName = document.querySelector('script[data-config]').getAttribute('data-config');
-	fetch(`/config/${configName}.config.json`)
+	fetch(`config/${configName}.config.json`)
 		.then(response => response.json())
 		.then(config => {
 			const housingMarket = new HousingMarket(config);

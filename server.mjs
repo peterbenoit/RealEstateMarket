@@ -27,6 +27,7 @@ app.use('/api/fred', async (req, res) => {
     const baseUrl = 'https://api.stlouisfed.org';
     const url = `${baseUrl}${req.url}`;
     try {
+        console.log('url', url);
         const response = await fetch(url);
         const data = await response.json();
         res.json(data);

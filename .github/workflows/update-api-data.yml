@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Use FRED API Key
+      run: echo "API key is ${{ secrets.FRED_API_KEY }}"
+
     - name: Checkout repository
       uses: actions/checkout@v2
       with:

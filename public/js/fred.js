@@ -1,9 +1,19 @@
 class HousingMarket {
 	constructor(config) {
-		this.baseUrl = config.baseUrl;
-		this.apiKey = config.apiKey;
+		this.baseUrl = "https://api.stlouisfed.org/fred/series/observations",
+		this.apiKey = null;
 		this.series = config.series;
 	}
+
+	async fetchApiKey() {
+        try {
+            const response = await fetch('/api/get-fred-api-key');
+            const data = await response.json();
+            this.apiKey = data.apiKey;
+        } catch (error) {
+            console.error('Error fetching API key:', error);
+        }
+    }
 
 	// Method to build the FRED API URL
 	buildUrl(seriesId) {

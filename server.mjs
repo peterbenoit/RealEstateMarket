@@ -4,6 +4,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fetch from 'node-fetch';
 import express from 'express';
+import dotenv from 'dotenv';  // Import dotenv
+
+dotenv.config();  // Load environment variables from .env
 
 // Define __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -13,6 +16,11 @@ const app = express();
 
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
+
+// API endpoint to get the FRED API key
+app.get('/api/get-fred-api-key', (req, res) => {
+    res.json({ apiKey: process.env.FRED_API_KEY });
+});
 
 // Proxy endpoint for FRED API
 app.use('/api/fred', async (req, res) => {

@@ -1,6 +1,4 @@
 {
-    "apiKey": "4aef95261705b5d131c5dba252bbdb45",
-    "baseUrl": "https://api.stlouisfed.org/fred/series/observations",
     "series": [
         {
             "id": "ACTLISCOUFL",

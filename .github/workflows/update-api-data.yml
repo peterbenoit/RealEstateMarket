@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Use FRED API Key
-      run: echo "API key is ${{ secrets.FRED_API_KEY }}"
-
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
@@ -27,6 +24,8 @@ jobs:
       run: npm install
 
     - name: Fetch and store API data
+      env:
+        FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       run: node fetch-api-data.js
 
     - name: Commit and push changes

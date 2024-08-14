@@ -1,20 +1,28 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const apiKey = process.env.FRED_API_KEY;
+const apiUrl = 'https://api.stlouisfed.org/fred/series/observations?series_id=';
 
 const SERIES_IDS = [
     'ACTLISCOUFL',
     'MEDDAYONMARFL',
-    'FLSTHPI'
-]
-const API_URLS = [
-    { name: 'ACTLISCOUFL', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=ACTLISCOUFL&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' },
-    { name: 'MEDDAYONMARFL', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=MEDDAYONMARFL&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' },
-    { name: 'ACTLISCOUMMFL', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' },
-    { name: 'ACTLISCOUGA', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' },
-    { name: 'MEDDAYONMARGA', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' },
-    { name: 'ACTLISCOUMMGA', url: 'https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=4aef95261705b5d131c5dba252bbdb45&file_type=json' }
-    // Add other API endpoints as needed
+    'FLSTHPI',
+    'ACTLISCOUGA',
+    'MEDDAYONMARGA',
+    'ACTLISCOUMMGA'
 ];
+
+const createApiUrls = (baseUrl, apiKey) => {
+    return SERIES_IDS.map(seriesId => ({
+        name: seriesId,
+        url: `${baseUrl}${seriesId}&api_key=${apiKey}&file_type=json`
+    }));
+};
+
+const API_URLS = createApiUrls(apiUrl, apiKey);
 
 API_URLS.forEach(async (api) => {
     try {

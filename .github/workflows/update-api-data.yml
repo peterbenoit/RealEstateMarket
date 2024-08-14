@@ -33,6 +33,6 @@ jobs:
         git add .
         git status  # Check the status before committing
         git commit -m "Update API data"
-        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/your-username/your-repository.git HEAD:main
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/peterbenoit/RealEstateMarket.git HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

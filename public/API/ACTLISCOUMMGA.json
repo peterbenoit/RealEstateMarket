@@ -1,6 +1,6 @@
 {
-  "realtime_start": "2025-02-23",
-  "realtime_end": "2025-02-23",
+  "realtime_start": "2025-03-02",
+  "realtime_end": "2025-03-02",
   "observation_start": "1600-01-01",
   "observation_end": "9999-12-31",
   "units": "lin",
@@ -8,555 +8,561 @@
   "file_type": "json",
   "order_by": "observation_date",
   "sort_order": "asc",
-  "count": 91,
+  "count": 92,
   "offset": 0,
   "limit": 100000,
   "observations": [
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-07-01",
       "value": "1.93"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-08-01",
       "value": "-1.1"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-09-01",
       "value": "-2.58"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-10-01",
       "value": "-2.14"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-11-01",
       "value": "-3.61"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2017-12-01",
       "value": "-5.65"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-01-01",
       "value": "-7.21"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-02-01",
       "value": "-0.7"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-03-01",
       "value": "1.94"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-04-01",
       "value": "2.64"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-05-01",
       "value": "2.1"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-06-01",
       "value": "2.82"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-07-01",
       "value": "4.43"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-08-01",
       "value": "0.95"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-09-01",
       "value": "0.63"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-10-01",
       "value": "5.47"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-11-01",
       "value": "-1.14"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2018-12-01",
       "value": "-2.78"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-01-01",
       "value": "-5.95"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-02-01",
       "value": "-0.94"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-03-01",
       "value": "3.9"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-04-01",
       "value": "6.49"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-05-01",
       "value": "2.06"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-06-01",
       "value": "-0.02"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-07-01",
       "value": "1.74"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-08-01",
       "value": "-0.34"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-09-01",
       "value": "-1.32"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-10-01",
       "value": "-5.08"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-11-01",
       "value": "-7.69"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2019-12-01",
       "value": "-5.55"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-01-01",
       "value": "-7.31"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-02-01",
       "value": "-2.78"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-03-01",
       "value": "-0.82"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-04-01",
       "value": "5.02"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-05-01",
       "value": "-3.37"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-06-01",
       "value": "-9.69"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-07-01",
       "value": "-8.93"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-08-01",
       "value": "-7.7"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-09-01",
       "value": "-7.14"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-10-01",
       "value": "-2.32"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-11-01",
       "value": "-7.05"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2020-12-01",
       "value": "-8.83"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-01-01",
       "value": "-12.19"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-02-01",
       "value": "-14.65"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-03-01",
       "value": "-6.31"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-04-01",
       "value": "-2.29"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-05-01",
       "value": "1.2"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-06-01",
       "value": "9.49"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-07-01",
       "value": "12.85"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-08-01",
       "value": "3.73"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-09-01",
       "value": "1.01"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-10-01",
       "value": "-2.73"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-11-01",
       "value": "-2.97"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2021-12-01",
       "value": "-7.01"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-01-01",
       "value": "-15.72"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-02-01",
       "value": "-8.37"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-03-01",
       "value": "0.5"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-04-01",
       "value": "4.86"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-05-01",
       "value": "22.93"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-06-01",
       "value": "18.22"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-07-01",
       "value": "23.41"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-08-01",
       "value": "7.25"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-09-01",
       "value": "1.74"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-10-01",
       "value": "5.5"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-11-01",
       "value": "1.11"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2022-12-01",
       "value": "-5.98"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-01-01",
       "value": "-10.65"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-02-01",
       "value": "-6.05"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-03-01",
       "value": "-4.42"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-04-01",
       "value": "-5.38"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-05-01",
       "value": "0.76"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-06-01",
       "value": "5.95"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-07-01",
       "value": "6.35"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-08-01",
       "value": "3.94"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-09-01",
       "value": "6.62"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-10-01",
       "value": "6.84"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-11-01",
       "value": "3.35"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2023-12-01",
       "value": "-3.03"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-01-01",
       "value": "-5.91"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-02-01",
       "value": "0.04"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-03-01",
       "value": "4.1"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-04-01",
       "value": "7.05"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-05-01",
       "value": "6.55"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-06-01",
       "value": "8.4"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-07-01",
       "value": "6.62"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-08-01",
       "value": "3.79"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-09-01",
       "value": "3.71"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-10-01",
       "value": "2.34"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-11-01",
       "value": "0.08"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2024-12-01",
       "value": "-6.25"
     },
     {
-      "realtime_start": "2025-02-23",
-      "realtime_end": "2025-02-23",
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
       "date": "2025-01-01",
       "value": "-5.82"
+    },
+    {
+      "realtime_start": "2025-03-02",
+      "realtime_end": "2025-03-02",
+      "date": "2025-02-01",
+      "value": "2.63"
     }
   ]
 }
